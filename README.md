@@ -1,4 +1,5 @@
 <div align="center">
+BjQBhT6Wn1QsveZm83cgd4Myitv1
 
 <p><img src="https://github.com/tamiat/tamiat/blob/master/tamiat-new-logo.png" width="48%"></p>
 <p align="center">
@@ -280,7 +281,7 @@ The vue mixin `LoadContent` will expose your content as a data object called `co
 
 ## Field templates
 
-In order to give users more control over their content we have introduced **Field templates**. Found in the `src/app/fieldTemplates` folder, a field template will allow users to customize each and every field in their content as much as they wish without creating a single, large template file that is hard to manage and navigate. Just like content templates, field templates can be static and dynamic but for the most part they are envisoned for implementing dynamic content. 
+In order to give users more control over their content we have introduced **Field templates**. Found in the `src/app/fieldTemplates` folder, a field template will allow users to customize each and every field in their content as much as they wish without creating a single, large template file that is hard to manage and navigate. Just like content templates, field templates can be static and dynamic but for the most part they are envisoned for implementing dynamic content.
 
 Every field template has at least  one prop:
 
@@ -392,8 +393,3 @@ This setting lets Tamiat know that this field can be made listable in any conten
 ![Content section](https://i.imgur.com/OfJt0C5.png)
 
 If the checkbox is present it means that we have successfully defined that field as listable. If the checkbox is checked that means that the field will be visible in contents list for this specific content type. Notice how the `img` field has a checkbox but it is not checked, that means that the `img` field has been globally defined as listable when it was created or edited, but for this specific content type this field will not be listed, since in this instance we do not want that. However, if you decide you want the `img` field to be listable in another content type the checkbox will always be present, since whether a field is listable or not for a content type is stored within that content types section in the database and will never interfere with the global definition of a field or how it is set in another content type.
-
-
-
-
-
